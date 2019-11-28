@@ -123,6 +123,7 @@ a { color: var(--clr-primary); }
 
 .nav-open .hamburger {
     transform: rotate(45deg);
+    background: red;
 }
 
 .nav-open .hamburger::before {
@@ -131,4 +132,5 @@ a { color: var(--clr-primary); }
 
 .nav-open .hamburger::after {
     transform: rotate(90deg) translate(-6px);
+    background: red;
 }
